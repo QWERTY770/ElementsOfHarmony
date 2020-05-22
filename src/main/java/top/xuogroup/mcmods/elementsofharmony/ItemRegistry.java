@@ -63,4 +63,13 @@ public class ItemRegistry {
     public static RegistryObject<Item> itemEKindnessSword = ITEMS.register("item_e_kindness_sword", ItemEKindnessSword::new);
     public static RegistryObject<Item> itemEMagicSword = ITEMS.register("item_e_magic_sword", ItemEMagicSword::new);
     // Register Six Swords
+
+    // Sep -------------------------------------------------------------------------------------------------------------
+
+    public static RegistryObject<Item> itemELoyaltyPickaxe = ITEMS.register("item_e_loyalty_pickaxe", ItemELoyaltyPickaxe::new);
+    public static RegistryObject<Item> itemELaughterPickaxe = ITEMS.register("item_e_laughter_pickaxe", ItemELaughterPickaxe::new);
+    public static RegistryObject<Item> itemEGenerosityPickaxe = ITEMS.register("item_e_generosity_pickaxe", ItemEGenerosityPickaxe::new);
+    public static RegistryObject<Item> itemEHonestyPickaxe = ITEMS.register("item_e_honesty_pickaxe", ItemEHonestyPickaxe::new);
+    public static RegistryObject<Item> itemEKindnessPickaxe = ITEMS.register("item_e_kindness_pickaxe", ItemEKindnessPickaxe::new);
+    public static RegistryObject<Item> itemEMagicPickaxe = ITEMS.register("item_e_magic_pickaxe", ItemEMagicPickaxe::new);
 }
