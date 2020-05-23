@@ -18,7 +18,7 @@ public class TireELaughter implements IItemTier {
 
     @Override
     public float getAttackDamage() {
-        return 5.0F;
+        return 15.0F;
     }
 
     @Override
