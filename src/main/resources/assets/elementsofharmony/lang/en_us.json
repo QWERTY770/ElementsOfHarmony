@@ -34,5 +34,12 @@
   "item.elementsofharmony.item_e_kindness_sword": "Harmony Defender of Kindness",
   "item.elementsofharmony.item_e_magic_sword": "Harmony Defender of Magic",
 
+  "item.elementsofharmony.item_e_loyalty_pickaxe": "Harmony Digger of Loyalty",
+  "item.elementsofharmony.item_e_laughter_pickaxe": "Harmony Digger of Laughter",
+  "item.elementsofharmony.item_e_generosity_pickaxe": "Harmony Digger of Generosity",
+  "item.elementsofharmony.item_e_honesty_pickaxe": "Harmony Digger of Honesty",
+  "item.elementsofharmony.item_e_kindness_pickaxe": "Harmony Digger of Kindness",
+  "item.elementsofharmony.item_e_magic_pickaxe": "Harmony Digger of Magic",
+
   "itemGroup.elementsofharmony_group": "Elements of Harmony"
 }

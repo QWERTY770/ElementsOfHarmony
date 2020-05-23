@@ -33,6 +33,13 @@
   "item.elementsofharmony.item_e_honesty_sword": "和谐捍卫者-诚实",
   "item.elementsofharmony.item_e_kindness_sword": "和谐捍卫者-善良",
   "item.elementsofharmony.item_e_magic_sword": "和谐捍卫者-魔法",
+  
+  "item.elementsofharmony.item_e_loyalty_pickaxe": "和谐挖掘者-忠诚",
+  "item.elementsofharmony.item_e_laughter_pickaxe": "和谐挖掘者-欢笑",
+  "item.elementsofharmony.item_e_generosity_pickaxe": "和谐挖掘者-慷慨",
+  "item.elementsofharmony.item_e_honesty_pickaxe": "和谐挖掘者-诚实",
+  "item.elementsofharmony.item_e_kindness_pickaxe": "和谐挖掘者-善良",
+  "item.elementsofharmony.item_e_magic_pickaxe": "和谐挖掘者-魔法",
 
   "itemGroup.elementsofharmony_group": "和谐之元"
 }
