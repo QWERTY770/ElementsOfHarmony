@@ -41,5 +41,12 @@
   "item.elementsofharmony.item_e_kindness_pickaxe": "Harmony Digger of Kindness",
   "item.elementsofharmony.item_e_magic_pickaxe": "Harmony Digger of Magic",
 
+  "item.elementsofharmony.item_e_loyalty_axe": "Harmony Cutter of Loyalty",
+  "item.elementsofharmony.item_e_laughter_axe": "Harmony Cutter of Laughter",
+  "item.elementsofharmony.item_e_generosity_axe": "Harmony Cutter of Generosity",
+  "item.elementsofharmony.item_e_honesty_axe": "Harmony Cutter of Honesty",
+  "item.elementsofharmony.item_e_kindness_axe": "Harmony Cutter of Kindness",
+  "item.elementsofharmony.item_e_magic_axe": "Harmony Cutter of Magic",
+
   "itemGroup.elementsofharmony_group": "Elements of Harmony"
 }
