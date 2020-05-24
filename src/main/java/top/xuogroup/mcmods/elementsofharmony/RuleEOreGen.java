@@ -13,7 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class OreGen {
+public class RuleEOreGen {
     @SubscribeEvent
     public static void onSetUpEvent(FMLCommonSetupEvent event){
         IForgeRegistry<Biome> biomesToRegister = ForgeRegistries.BIOMES; // For Future Development
