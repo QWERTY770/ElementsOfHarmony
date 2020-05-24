@@ -28,7 +28,7 @@ public enum MaterialExtended implements IArmorMaterial {
     KINDNESS("kindness", 35, new int[]{0, 10, 0, 0}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.8F, () -> {
         return Ingredient.fromItems(ItemRegistry.itemEKindnessGem.get());
     }),
-    MAGIC("magic", 30, new int[]{0, 7, 0, 0}, 50, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F, () -> {
+    MAGIC("magic", 30, new int[]{10, 0, 0, 0}, 50, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F, () -> {
         return Ingredient.fromItems(ItemRegistry.itemEMagicGem.get());
     });
 
