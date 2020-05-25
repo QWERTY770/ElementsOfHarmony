@@ -48,5 +48,12 @@
   "item.elementsofharmony.item_e_kindness_axe": "Harmony Cutter of Kindness",
   "item.elementsofharmony.item_e_magic_axe": "Harmony Cutter of Magic",
 
+  "item.elementsofharmony.item_e_loyalty_necklace": "Harmony Necklace of Loyalty",
+  "item.elementsofharmony.item_e_laughter_necklace": "Harmony Necklace of Laughter",
+  "item.elementsofharmony.item_e_generosity_necklace": "Harmony Necklace of Generosity",
+  "item.elementsofharmony.item_e_honesty_necklace": "Harmony Necklace of Honesty",
+  "item.elementsofharmony.item_e_kindness_necklace": "Harmony Necklace of Kindness",
+  "item.elementsofharmony.item_e_magic_crown": "Harmony Crown of Magic",
+
   "itemGroup.elementsofharmony_group": "Elements of Harmony"
 }

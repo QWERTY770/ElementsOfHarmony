@@ -40,6 +40,13 @@
   "item.elementsofharmony.item_e_honesty_axe": "Harmonia Tranĉilo-Honesta",
   "item.elementsofharmony.item_e_kindness_axe": "Harmonia Tranĉilo-Boneco",
   "item.elementsofharmony.item_e_magic_axe": "Harmonia Tranĉilo-Magio",
+
+  "item.elementsofharmony.item_e_loyalty_necklace": "Harmonia Koliero-Fideleco",
+  "item.elementsofharmony.item_e_laughter_necklace": "Harmonia Koliero-Rido",
+  "item.elementsofharmony.item_e_generosity_necklace": "Harmonia Koliero-Malavara",
+  "item.elementsofharmony.item_e_honesty_necklace": "Harmonia Koliero-Honesta",
+  "item.elementsofharmony.item_e_kindness_necklace": "Harmonia Koliero-Boneco",
+  "item.elementsofharmony.item_e_magic_crown": "Harmonia Krono-Magio",
   
   "itemGroup.elementsofharmony_group": "Harmonia Yuan"
 }
