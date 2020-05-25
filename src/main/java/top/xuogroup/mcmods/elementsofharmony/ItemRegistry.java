@@ -92,4 +92,10 @@ public class ItemRegistry {
     public static RegistryObject<Item> itemEHonestyNecklace = ITEMS.register("item_e_honesty_necklace", ItemEHonestyNecklace::new);
     public static RegistryObject<Item> itemEKindnessNecklace = ITEMS.register("item_e_kindness_necklace", ItemEKindnessNecklace::new);
     public static RegistryObject<Item> itemEMagicCrown = ITEMS.register("item_e_magic_crown", ItemEMagicCrown::new);
+    // Register Six Necklaces/Crown
+
+    // Sep -------------------------------------------------------------------------------------------------------------
+
+    public static RegistryObject<Item> blockEEquestriaPortal = ITEMS.register("block_e_equestria_portal",
+            () -> new BlockItem(BlockRegistry.blockEEquestriaPortal.get(), new Item.Properties().group(ModGroup.elementsofharmonyGroup)));
 }

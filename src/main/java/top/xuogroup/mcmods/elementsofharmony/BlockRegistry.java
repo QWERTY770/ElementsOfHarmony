@@ -14,4 +14,9 @@ public class BlockRegistry {
     public static RegistryObject<Block> blockEHonestyMine = BLOCKS.register("block_e_honesty_mine", BlockEHonestyMine::new);
     public static RegistryObject<Block> blockEKindnessMine = BLOCKS.register("block_e_kindness_mine", BlockEKindnessMine::new);
     public static RegistryObject<Block> blockEMagicMine = BLOCKS.register("block_e_magic_mine", BlockEMagicMine::new);
+    // Register Six Ores
+
+    // Sep -------------------------------------------------------------------------------------------------------------
+
+    public static RegistryObject<Block> blockEEquestriaPortal = BLOCKS.register("block_e_equestria_portal", BlockEEquestriaPortal::new);
 }
