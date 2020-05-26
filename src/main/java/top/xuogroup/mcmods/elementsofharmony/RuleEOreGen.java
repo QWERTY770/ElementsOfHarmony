@@ -22,48 +22,48 @@ public class RuleEOreGen {
                     Feature.ORE.withConfiguration(
                             new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                                     BlockRegistry.blockELoyaltyMine.get().getDefaultState(),
-                                    2)
-                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(15, 5, 5)))
+                                    3)
+                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(24, 5, 5)))
             );
 
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                     Feature.ORE.withConfiguration(
                             new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                                     BlockRegistry.blockELaughterMine.get().getDefaultState(),
-                                    2)
-                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(15, 5, 5)))
+                                    3)
+                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(24, 5, 10)))
             );
 
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                     Feature.ORE.withConfiguration(
                             new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                                     BlockRegistry.blockEGenerosityMine.get().getDefaultState(),
-                                    2)
-                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(15, 5, 5)))
+                                    3)
+                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(24, 5, 10)))
             );
 
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                     Feature.ORE.withConfiguration(
                             new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                                     BlockRegistry.blockEHonestyMine.get().getDefaultState(),
-                                    2)
-                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(15, 5, 5)))
+                                    3)
+                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(24, 5, 10)))
             );
 
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                     Feature.ORE.withConfiguration(
                             new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                                     BlockRegistry.blockEKindnessMine.get().getDefaultState(),
-                                    2)
-                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(15, 5, 5)))
+                                    3)
+                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(24, 5, 10)))
             );
 
             biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                     Feature.ORE.withConfiguration(
                             new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                                     BlockRegistry.blockEMagicMine.get().getDefaultState(),
-                                    2)
-                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(15, 5, 5)))
+                                    3)
+                    ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(24, 5, 10)))
             );
         }
     }
