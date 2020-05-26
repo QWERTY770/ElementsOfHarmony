@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    " w ",
+    " w "
+  ],
+  "key": {
+    "i": {
+      "item": "elementsofharmony:item_e_honesty_gem"
+    },
+    "w": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "elementsofharmony:item_e_honesty_pickaxe",
+    "count": 1
+  }
+}

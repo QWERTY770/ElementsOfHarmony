@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g ",
+    " o ",
+    "ggg"
+  ],
+  "key": {
+    "o": {
+      "item": "elementsofharmony:item_e_magic_jewelry"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "elementsofharmony:item_e_magic_crown",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "g g",
+    "gog"
+  ],
+  "key": {
+    "o": {
+      "item": "elementsofharmony:item_e_generosity_jewelry"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "elementsofharmony:item_e_generosity_necklace",
+    "count": 1
+  }
+}

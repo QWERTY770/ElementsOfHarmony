@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "i",
+    "w"
+  ],
+  "key": {
+    "i": {
+      "item": "elementsofharmony:item_e_generosity_gem"
+    },
+    "w": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "elementsofharmony:item_e_generosity_sword",
+    "count": 1
+  }
+}

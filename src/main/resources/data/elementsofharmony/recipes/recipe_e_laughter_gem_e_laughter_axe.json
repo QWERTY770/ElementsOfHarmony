@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii ",
+    "iw ",
+    " w "
+  ],
+  "key": {
+    "i": {
+      "item": "elementsofharmony:item_e_laughter_gem"
+    },
+    "w": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "elementsofharmony:item_e_laughter_axe",
+    "count": 1
+  }
+}
