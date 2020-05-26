@@ -8,7 +8,7 @@ import javax.annotation.Nonnull;
 public class TireEGenerosity implements IItemTier {
     @Override
     public int getMaxUses() {
-        return 2200;
+        return 420;
     }
 
     @Override

@@ -14,7 +14,7 @@ import javax.annotation.ParametersAreNonnullByDefault;
 public class MaterialELoyalty implements IArmorMaterial {
     @Override @ParametersAreNonnullByDefault
     public int getDurability(EquipmentSlotType slotIn) {
-        return 400;
+        return 200;
     }
     @Override @ParametersAreNonnullByDefault
     public int getDamageReductionAmount(EquipmentSlotType slotIn) {

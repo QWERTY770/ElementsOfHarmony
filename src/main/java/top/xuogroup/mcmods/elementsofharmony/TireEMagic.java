@@ -7,7 +7,7 @@ import javax.annotation.Nonnull;
 public class TireEMagic implements IItemTier {
     @Override
     public int getMaxUses() {
-        return 1500;
+        return 140;
     }
 
     @Override
