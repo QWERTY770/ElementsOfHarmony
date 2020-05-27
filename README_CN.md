@@ -7,24 +7,26 @@
 ![语言](https://img.shields.io/badge/开发语言-Java-0bbbff.svg)
 [![Other Languages](https://img.shields.io/badge/This%20Document%20Supports-English-blue.svg)](README.md)  
 *（注：中国大陆用户可能访问较慢，并可能无法加载图片。若不能和谐上网，请考虑更改**Hosts**文件。）*  
-这是一个**我的世界模组**。  
-向我的世界加入6个元素之后，你就可以用它们制造**更强大的**工具或武器。  
-它们可以在世界中以**矿石**的形态找到，**熔炼**矿石以获得其它形态。  
-永远**不可能**有太多的元素，如果数量够多，你甚至可以使用它们**超越生死**！  
-它们可以有效地杀伤怪物，今后就在晚上随意出来游荡吧！  
-最后，找到**和谐之树**，在哪里，你将会了解为什么，你，会在这个世界上……    
-这就是**全部**吗？还是只是个**开始**呢？  
+*此部分内容未以简体中文提供。*  
+One day, Steve is busy crafting, he was happy about what he found: tons of diamond ores! (Amazing)
+
+Just when he wanted to dig deeper and get more, he found a very strange ore.
+
+It is odd indeed, for it's darker than any ore he had seen before.
+
+He tried to craft it with his iron pickaxe, but failed: it's so hard!
+
+He returned into his house and bring a diamond pickaxe, again he tried, and this time, he got a... very common ore.
+
+What is it? Steve felt very curious, he smelt it and got an ingot.
+
+Just when he took this ingot into his item stack, he felt a dizzy sensation, and suddenly, the recipes of how to use these ingots popped into his mind.
+
+He sat down and start building, and soon he left the Overworld, to... a place which nobody knows till now...
+
 
 ---
 好，这个故事很荒唐，打住，到此结束。我们只是想制作一个有关 **My Little Pony(R)** 的模组。  
-
-此模组正在开发，和**我的世界（Java版）1.15.2**以及**Forge 31.1.0**兼容。  
-
-如果您在寻找以及开发完成且有关 **My Little Pony(R)** 的模组，可以看看以下两个项目：  
-- [Mine Little Pony](https://github.com/MineLittlePony/MineLittlePony) ，由 [Mine Little Pony](https://github.com/MineLittlePony) 开发的一个**Fabric模组**。（我试过了，**超级**酷！）
-- [Love and Tolerance](https://github.com/Love-and-Tolerance/Love-and-Tolerance) ，由 [Love and Tolerance](https://github.com/Love-and-Tolerance) 制作的材质包。（非常**漂亮**！）
-
-一开始我们准备使用Fabric以便和他们兼容，但看完文档后程序猿崩溃了，决定继续使用Forge……  
 
 ---
 运行环境：  

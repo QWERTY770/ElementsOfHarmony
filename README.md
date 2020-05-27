@@ -5,24 +5,25 @@
 ![API](https://img.shields.io/badge/API-Forge%20MOD%20Loader-orange.svg)
 ![Language](https://img.shields.io/badge/Lauguage-Java-0bbbff.svg)
 [![其他语言](https://img.shields.io/badge/此文档提供-简体中文版本-red.svg)](README_CN.md)  
-This is a **Minecraft MOD**.  
-With adding six elements to Minecraft, you can use them to build **more powerful** tools or weapons.  
-These elements can be find in the form of **minerals**, **smelt** them to get other form of these elements.  
-There can **never** be too many elements, if you own enough of them, you can even use them to **transcend life and death!**  
-These elements can hurt mobs **effectively**. You will never fear of mobs after today!  
-At last, find **The Tree of Harmony**, to learn about why, you, Steve or Alex, are here, in this world...  
-Is this the end? Or **just a beginning**?  
+
+One day, **Steve** is busy crafting, he was happy about what he found: tons of diamond ores! (Amazing)
+
+Just when he wanted to dig deeper and get more, he found a very strange ore.
+
+It is odd indeed, for it's darker than any ore he had seen before.
+
+He tried to craft it with his iron pickaxe, but failed: it's so hard!
+
+He returned into his house and bring a diamond pickaxe, again he tried, and this time, he got a... very common ore.
+
+What is it? Steve felt very curious, he smelt it and got an ingot.
+
+Just when he took this ingot into his item stack, he felt a dizzy sensation, and suddenly, the recipes of how to use these ingots popped into his mind.
+
+He sat down and start building, and soon he left the Overworld, to... a place which nobody knows till now...
 
 ---
-Okay, and that's the whole absurd story. Anyway, we just want to develop a mod related with **My Little Pony**. (For the author, me, is a **brony**, obviously)  
-
-This MOD is **still developing** and is compatible with **Minecraft 1.15.2 (Java Edition)** and **Forge 31.1.0** when developing.  
-
-If you are looking for another MOD related with **My Little Pony**, try these two:
-- [Mine Little Pony](https://github.com/MineLittlePony/MineLittlePony) by [Mine Little Pony](https://github.com/MineLittlePony), a **Fabric MOD**. (I tried it, really **Superduper AWESOME**!)
-- [Love and Tolerance](https://github.com/Love-and-Tolerance/Love-and-Tolerance) by [Love and Tolerance](https://github.com/Love-and-Tolerance), a **material package**. (**Also pretty!**)
-
-At the beginning, we had considered to use **Fabric** to be compatible with **Mine Little Pony**, but, after we read the documentation, we decided to give up, stay foolish, and just use **Forge**.  
+Okay, and that's the whole absurd story. Anyway, we just want to develop a mod related with **My Little Pony**. (For the author, me, is a **brony**, obviously)
 
 ---
 Runtime environment:  
