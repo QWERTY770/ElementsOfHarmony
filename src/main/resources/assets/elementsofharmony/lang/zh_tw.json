@@ -56,6 +56,9 @@
   "item.elementsofharmony.item_e_magic_crown": "和諧王冠-魔法",
 
   "block.elementsofharmony.block_e_equestria_portal": "小馬利亞傳送門",
+
+  "advancements.elementsofharmony.root.title": "和諧之元",
+  "advancements.elementsofharmony.root.description": "世界本不是這樣的……",
   
   "itemGroup.elementsofharmony_group": "和諧之元"
 }

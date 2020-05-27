@@ -1,0 +1,88 @@
+{
+  "rewards": {
+    "recipes": [
+      "elementsofharmony:recipe_e_loyalty_ingot_e_loyalty_gem",
+      "elementsofharmony:recipe_e_laughter_ingot_e_laughter_gem",
+      "elementsofharmony:recipe_e_generosity_ingot_e_generosity_gem",
+      "elementsofharmony:recipe_e_honesty_ingot_e_honesty_gem",
+      "elementsofharmony:recipe_e_kindness_ingot_e_kindness_gem",
+      "elementsofharmony:recipe_e_magic_ingot_e_magic_gem"
+    ]
+  },
+  "display": {
+    "icon": {
+      "item": "elementsofharmony:item_e_magic_gem"
+    },
+    "title": {
+      "translate": "advancements.elementsofharmony.root.title"
+    },
+    "description": {
+      "translate": "advancements.elementsofharmony.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "elementsofharmony:textures/gui/advancements/backgrounds/background.png"
+  },
+  "criteria": {
+    "get_loyalty_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_loyalty_ingot"}
+        ]
+      }
+    },
+    "get_laughter_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_laughter_ingot"}
+        ]
+      }
+    },
+    "get_generosity_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_generosity_ingot"}
+        ]
+      }
+    },
+    "get_honesty_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_honesty_ingot"}
+        ]
+      }
+    },
+    "get_kindness_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_kindness_ingot"}
+        ]
+      }
+    },
+    "get_magic_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_magic_ingot"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_loyalty_ingot",
+      "get_laughter_ingot",
+      "get_generosity_ingot",
+      "get_honesty_ingot",
+      "get_kindness_ingot",
+      "get_magic_ingot"
+    ]
+  ]
+}
