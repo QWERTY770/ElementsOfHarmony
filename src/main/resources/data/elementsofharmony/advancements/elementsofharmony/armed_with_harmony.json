@@ -1,0 +1,190 @@
+{
+  "parent": "elementsofharmony:elementsofharmony/root",
+  "rewards": {
+    "experience": 50
+  },
+  "display": {
+    "icon": {
+      "item": "elementsofharmony:item_e_honesty_sword",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.elementsofharmony.armed_with_harmony.title"
+    },
+    "description": {
+      "translate": "advancements.elementsofharmony.armed_with_harmony.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_loyalty_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_loyalty_axe"}
+        ]
+      }
+    },
+    "get_laughter_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_laughter_axe"}
+        ]
+      }
+    },
+    "get_generosity_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_generosity_axe"}
+        ]
+      }
+    },
+    "get_honesty_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_honesty_axe"}
+        ]
+      }
+    },
+    "get_kindness_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_kindness_axe"}
+        ]
+      }
+    },
+    "get_magic_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_magic_axe"}
+        ]
+      }
+    },
+    "get_loyalty_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_loyalty_pickaxe"}
+        ]
+      }
+    },
+    "get_laughter_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_laughter_pickaxe"}
+        ]
+      }
+    },
+    "get_generosity_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_generosity_pickaxe"}
+        ]
+      }
+    },
+    "get_honesty_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_honesty_pickaxe"}
+        ]
+      }
+    },
+    "get_kindness_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_kindness_pickaxe"}
+        ]
+      }
+    },
+    "get_magic_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_magic_pickaxe"}
+        ]
+      }
+    },
+    "get_loyalty_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_loyalty_sword"}
+        ]
+      }
+    },
+    "get_laughter_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_laughter_sword"}
+        ]
+      }
+    },
+    "get_generosity_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_generosity_sword"}
+        ]
+      }
+    },
+    "get_honesty_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_honesty_sword"}
+        ]
+      }
+    },
+    "get_kindness_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_kindness_sword"}
+        ]
+      }
+    },
+    "get_magic_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_magic_sword"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_loyalty_axe",
+      "get_laughter_axe",
+      "get_generosity_axe",
+      "get_honesty_axe",
+      "get_kindness_axe",
+      "get_magic_axe",
+      "get_loyalty_pickaxe",
+      "get_laughter_pickaxe",
+      "get_generosity_pickaxe",
+      "get_honesty_pickaxe",
+      "get_kindness_pickaxe",
+      "get_magic_pickaxe",
+      "get_loyalty_sword",
+      "get_laughter_sword",
+      "get_generosity_sword",
+      "get_honesty_sword",
+      "get_kindness_sword",
+      "get_magic_sword"
+    ]
+  ]
+}
