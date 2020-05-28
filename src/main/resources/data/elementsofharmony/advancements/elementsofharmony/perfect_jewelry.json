@@ -1,0 +1,89 @@
+{
+  "parent": "elementsofharmony:elementsofharmony/root",
+  "rewards": {
+    "recipes": [
+      "elementsofharmony:recipe_e_loyalty_jewelry_e_loyalty_necklace",
+      "elementsofharmony:recipe_e_laughter_jewelry_e_laughter_necklace",
+      "elementsofharmony:recipe_e_generosity_jewelry_e_generosity_necklace",
+      "elementsofharmony:recipe_e_honesty_jewelry_e_honesty_necklace",
+      "elementsofharmony:recipe_e_kindness_jewelry_e_kindness_necklace",
+      "elementsofharmony:recipe_e_magic_jewelry_e_magic_crown"
+    ],
+    "experience": 40
+  },
+  "display": {
+    "icon": {
+      "item": "elementsofharmony:item_e_magic_jewelry"
+    },
+    "title": {
+      "translate": "advancements.elementsofharmony.perfect_jewelry.title"
+    },
+    "description": {
+      "translate": "advancements.elementsofharmony.perfect_jewelry.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_loyalty_jewelry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_loyalty_jewelry"}
+        ]
+      }
+    },
+    "get_laughter_jewelry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_laughter_jewelry"}
+        ]
+      }
+    },
+    "get_generosity_jewelry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_generosity_jewelry"}
+        ]
+      }
+    },
+    "get_honesty_jewelry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_honesty_jewelry"}
+        ]
+      }
+    },
+    "get_kindness_jewelry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_kindness_jewelry"}
+        ]
+      }
+    },
+    "get_magic_jewelry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"item": "elementsofharmony:item_e_magic_jewelry"}
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_loyalty_jewelry",
+      "get_laughter_jewelry",
+      "get_generosity_jewelry",
+      "get_honesty_jewelry",
+      "get_kindness_jewelry",
+      "get_magic_jewelry"
+    ]
+  ]
+}
