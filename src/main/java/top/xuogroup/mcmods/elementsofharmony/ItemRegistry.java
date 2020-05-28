@@ -97,5 +97,5 @@ public class ItemRegistry {
     // Sep -------------------------------------------------------------------------------------------------------------
 
     public static RegistryObject<Item> blockEEquestriaPortal = ITEMS.register("block_e_equestria_portal",
-            () -> new BlockItem(BlockRegistry.blockEEquestriaPortal.get(), new Item.Properties().group(ModGroup.elementsofharmonyGroup)));
+            () -> new BlockItem(BlockRegistry.blockEEquestriaPortal.get(), new Item.Properties()));
 }
