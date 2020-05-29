@@ -1,0 +1,78 @@
+{
+  "parent": "elementsofharmony:elementsofharmony/perfect_jewelry",
+  "display": {
+    "icon": {
+      "item": "elementsofharmony:item_e_loyalty_necklace"
+    },
+    "title": {
+      "translate": "advancements.elementsofharmony.next_level.title"
+    },
+    "description": {
+      "translate": "advancements.elementsofharmony.next_level.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "defense_with_loyalty_necklace": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "elementsofharmony:item_e_loyalty_necklace"
+        }
+      }
+    },
+    "defense_with_laughter_necklace": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "elementsofharmony:item_e_laughter_necklace"
+        }
+      }
+    },
+    "defense_with_generosity_necklace": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "elementsofharmony:item_e_generosity_necklace"
+        }
+      }
+    },
+    "defense_with_honesty_necklace": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "elementsofharmony:item_e_honesty_necklace"
+        }
+      }
+    },
+    "defense_with_kindness_necklace": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "elementsofharmony:item_e_kindness_necklace"
+        }
+      }
+    },
+    "defense_with_magic_crown": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "item": "elementsofharmony:item_e_magic_crown"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "defense_with_loyalty_necklace",
+      "defense_with_laughter_necklace",
+      "defense_with_generosity_necklace",
+      "defense_with_honesty_necklace",
+      "defense_with_kindness_necklace",
+      "defense_with_magic_crown"
+    ]
+  ]
+}
