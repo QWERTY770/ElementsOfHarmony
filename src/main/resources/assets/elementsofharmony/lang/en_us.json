@@ -61,8 +61,10 @@
   "advancements.elementsofharmony.root.description": "Make the world a better place",
   "advancements.elementsofharmony.perfect_jewelry.title": "Skillful Gempony",
   "advancements.elementsofharmony.perfect_jewelry.description": "Make some refined gems with your hooves!",
-  "advancements.elementsofharmony.armed_with_harmony.title": "Fight For Harmony",
+  "advancements.elementsofharmony.armed_with_harmony.title": "Armed With Harmony",
   "advancements.elementsofharmony.armed_with_harmony.description": "Get ready to sacrifice for harmony!",
+  "advancements.elementsofharmony.first_strike.title": "First Strike",
+  "advancements.elementsofharmony.first_strike.description": "Or perhaps one stroke killed...",
 
   "itemGroup.elementsofharmony_group": "Elements of Harmony"
 }

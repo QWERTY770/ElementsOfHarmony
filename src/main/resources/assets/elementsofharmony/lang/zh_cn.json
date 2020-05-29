@@ -61,8 +61,10 @@
   "advancements.elementsofharmony.root.description": "让世界变得更美好",
   "advancements.elementsofharmony.perfect_jewelry.title": "能工巧马",
   "advancements.elementsofharmony.perfect_jewelry.description": "蹄工制造精制的宝石",
-  "advancements.elementsofharmony.armed_with_harmony.title": "捍卫和谐",
+  "advancements.elementsofharmony.armed_with_harmony.title": "武装上阵",
   "advancements.elementsofharmony.armed_with_harmony.description": "准备随时为和谐献身！",
+  "advancements.elementsofharmony.first_strike.title": "先发制人",
+  "advancements.elementsofharmony.first_strike.description": "也可能是一招毙命……",
 
   "itemGroup.elementsofharmony_group": "和谐之元"
 }

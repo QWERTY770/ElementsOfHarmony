@@ -1,0 +1,352 @@
+{
+  "parent": "elementsofharmony:elementsofharmony/armed_with_harmony",
+  "rewards": {
+    "experience": 10
+  },
+  "display": {
+    "icon": {
+      "item": "elementsofharmony:item_e_magic_axe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.elementsofharmony.first_strike.title"
+    },
+    "description": {
+      "translate": "advancements.elementsofharmony.first_strike.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hurt_with_loyalty_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_loyalty_sword"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+        }
+    },
+    "hurt_with_laughter_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_laughter_sword"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_generosity_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_generosity_sword"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_honesty_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_honesty_sword"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_kindness_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_kindness_sword"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_magic_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_magic_sword"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_loyalty_axe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_loyalty_axe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_laughter_axe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_laughter_axe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_generosity_axe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_generosity_axe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_honesty_axe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_honesty_axe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_kindness_axe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_kindness_axe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_magic_axe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_magic_axe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_loyalty_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_loyalty_pickaxe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_laughter_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_laughter_pickaxe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_generosity_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_generosity_pickaxe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_honesty_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_honesty_pickaxe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_kindness_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_kindness_pickaxe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    },
+    "hurt_with_magic_pickaxe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "equipment": {
+                "mainhand": {
+                  "item": "elementsofharmony:item_e_magic_pickaxe"
+                }
+              },
+              "type": "minecraft:player"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hurt_with_loyalty_sword",
+      "hurt_with_laughter_sword",
+      "hurt_with_generosity_sword",
+      "hurt_with_honesty_sword",
+      "hurt_with_kindness_sword",
+      "hurt_with_magic_sword",
+      "hurt_with_loyalty_axe",
+      "hurt_with_laughter_axe",
+      "hurt_with_generosity_axe",
+      "hurt_with_honesty_axe",
+      "hurt_with_kindness_axe",
+      "hurt_with_magic_axe",
+      "hurt_with_loyalty_pickaxe",
+      "hurt_with_laughter_pickaxe",
+      "hurt_with_generosity_pickaxe",
+      "hurt_with_honesty_pickaxe",
+      "hurt_with_kindness_pickaxe",
+      "hurt_with_magic_pickaxe"
+    ]
+  ]
+}
