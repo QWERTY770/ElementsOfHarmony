@@ -1,0 +1,127 @@
+{
+  "parent": "elementsofharmony:recipes/root",
+  "rewards": {
+    "recipes": [
+      "elementsofharmony:recipe_e_loyalty_mine_e_loyalty_ingot",
+      "elementsofharmony:recipe_e_laughter_mine_e_laughter_ingot",
+      "elementsofharmony:recipe_e_generosity_mine_e_generosity_ingot",
+      "elementsofharmony:recipe_e_honesty_mine_e_honesty_ingot",
+      "elementsofharmony:recipe_e_kindness_mine_e_kindness_ingot",
+      "elementsofharmony:recipe_e_magic_mine_e_magic_ingot"
+    ]
+  },
+  "criteria": {
+    "has_e_loyalty_mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:block_e_loyalty_mine"
+          }
+        ]
+      }
+    },
+    "has_e_laughter_mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:block_e_laughter_mine"
+          }
+        ]
+      }
+    },
+    "has_e_generosity_mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:block_e_generosity_mine"
+          }
+        ]
+      }
+    },
+    "has_e_honesty_mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:block_e_honesty_mine"
+          }
+        ]
+      }
+    },
+    "has_e_kindness_mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:block_e_kindness_mine"
+          }
+        ]
+      }
+    },
+    "has_e_magic_mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:block_e_magic_mine"
+          }
+        ]
+      }
+    },
+    "has_recipe_e_loyalty_mine_e_loyalty_ingot": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_loyalty_mine_e_loyalty_ingot"
+      }
+    },
+    "has_recipe_e_laughter_mine_e_laughter_ingot": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_laughter_mine_e_laughter_ingot"
+      }
+    },
+    "has_recipe_e_generosity_mine_e_generosity_ingot": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_generosity_mine_e_generosity_ingot"
+      }
+    },
+    "has_recipe_e_honesty_mine_e_honesty_ingot": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_honesty_mine_e_honesty_ingot"
+      }
+    },
+    "has_recipe_e_kindness_mine_e_kindness_ingot": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_kindness_mine_e_kindness_ingot"
+      }
+    },
+    "has_recipe_e_magic_mine_e_magic_ingot": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_magic_mine_e_magic_ingot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_e_loyalty_mine",
+      "has_e_laughter_mine",
+      "has_e_generosity_mine",
+      "has_e_honesty_mine",
+      "has_e_kindness_mine",
+      "has_e_magic_mine",
+      "has_recipe_e_loyalty_mine_e_loyalty_ingot",
+      "has_recipe_e_laughter_mine_e_laughter_ingot",
+      "has_recipe_e_generosity_mine_e_generosity_ingot",
+      "has_recipe_e_honesty_mine_e_honesty_ingot",
+      "has_recipe_e_kindness_mine_e_kindness_ingot",
+      "has_recipe_e_magic_mine_e_magic_ingot"
+    ]
+  ]
+}
