@@ -96,4 +96,5 @@ public class ItemRegistry {
 
     // Sep -------------------------------------------------------------------------------------------------------------
 
+    public static RegistryObject<Item> itemEEquestriaTransferAmulet = ITEMS.register("item_e_equestria_transfer_amulet", ItemEEquestriaTransferAmulet::new);
 }
