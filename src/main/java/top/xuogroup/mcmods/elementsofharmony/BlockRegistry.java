@@ -18,5 +18,4 @@ public class BlockRegistry {
 
     // Sep -------------------------------------------------------------------------------------------------------------
 
-    public static RegistryObject<Block> blockEEquestriaPortal = BLOCKS.register("block_e_equestria_portal", BlockEEquestriaPortal::new);
 }

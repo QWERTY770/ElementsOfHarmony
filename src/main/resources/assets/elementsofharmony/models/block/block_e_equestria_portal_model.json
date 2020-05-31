@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "elementsofharmony:block/pic_block_e_equestria_portal"
-  }
-}
