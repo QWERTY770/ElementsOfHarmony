@@ -1,0 +1,273 @@
+{
+  "parent": "elementsofharmony:recipes/unlock_e_ingots",
+  "rewards": {
+    "recipes": [
+      "elementsofharmony:recipe_e_loyalty_gem_e_loyalty_axe",
+      "elementsofharmony:recipe_e_laughter_gem_e_laughter_axe",
+      "elementsofharmony:recipe_e_generosity_gem_e_generosity_axe",
+      "elementsofharmony:recipe_e_honesty_gem_e_honesty_axe",
+      "elementsofharmony:recipe_e_kindness_gem_e_kindness_axe",
+      "elementsofharmony:recipe_e_magic_gem_e_magic_axe",
+      "elementsofharmony:recipe_e_loyalty_gem_e_loyalty_pickaxe",
+      "elementsofharmony:recipe_e_laughter_gem_e_laughter_pickaxe",
+      "elementsofharmony:recipe_e_generosity_gem_e_generosity_pickaxe",
+      "elementsofharmony:recipe_e_honesty_gem_e_honesty_pickaxe",
+      "elementsofharmony:recipe_e_kindness_gem_e_kindness_pickaxe",
+      "elementsofharmony:recipe_e_magic_gem_e_magic_pickaxe",
+      "elementsofharmony:recipe_e_loyalty_gem_e_loyalty_sword",
+      "elementsofharmony:recipe_e_laughter_gem_e_laughter_sword",
+      "elementsofharmony:recipe_e_generosity_gem_e_generosity_sword",
+      "elementsofharmony:recipe_e_honesty_gem_e_honesty_sword",
+      "elementsofharmony:recipe_e_kindness_gem_e_kindness_sword",
+      "elementsofharmony:recipe_e_magic_gem_e_magic_sword",
+      "elementsofharmony:recipe_e_loyalty_gem_e_loyalty_jewelry",
+      "elementsofharmony:recipe_e_laughter_gem_e_laughter_jewelry",
+      "elementsofharmony:recipe_e_generosity_gem_e_generosity_jewelry",
+      "elementsofharmony:recipe_e_honesty_gem_e_honesty_jewelry",
+      "elementsofharmony:recipe_e_kindness_gem_e_kindness_jewelry",
+      "elementsofharmony:recipe_e_magic_gem_e_magic_jewelry"
+    ]
+  },
+  "criteria": {
+    "has_e_loyalty_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:item_e_loyalty_gem"
+          }
+        ]
+      }
+    },
+    "has_e_laughter_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:item_e_laughter_gem"
+          }
+        ]
+      }
+    },
+    "has_e_generosity_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:item_e_generosity_gem"
+          }
+        ]
+      }
+    },
+    "has_e_honesty_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:item_e_honesty_gem"
+          }
+        ]
+      }
+    },
+    "has_e_kindness_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:item_e_kindness_gem"
+          }
+        ]
+      }
+    },
+    "has_e_magic_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "elementsofharmony:item_e_magic_gem"
+          }
+        ]
+      }
+    },
+    "has_recipe_e_loyalty_gem_e_loyalty_axe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_loyalty_gem_e_loyalty_axe"
+      }
+    },
+    "has_recipe_e_laughter_gem_e_laughter_axe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_laughter_gem_e_laughter_axe"
+      }
+    },
+    "has_recipe_e_generosity_gem_e_generosity_axe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_generosity_gem_e_generosity_axe"
+      }
+    },
+    "has_recipe_e_honesty_gem_e_honesty_axe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_honesty_gem_e_honesty_axe"
+      }
+    },
+    "has_recipe_e_kindness_gem_e_kindness_axe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_kindness_gem_e_kindness_axe"
+      }
+    },
+    "has_recipe_e_magic_gem_e_magic_axe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_magic_gem_e_magic_axe"
+      }
+    },
+    "has_recipe_e_loyalty_gem_e_loyalty_pickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_loyalty_gem_e_loyalty_pickaxe"
+      }
+    },
+    "has_recipe_e_laughter_gem_e_laughter_pickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_laughter_gem_e_laughter_pickaxe"
+      }
+    },
+    "has_recipe_e_generosity_gem_e_generosity_pickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_generosity_gem_e_generosity_pickaxe"
+      }
+    },
+    "has_recipe_e_honesty_gem_e_honesty_pickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_honesty_gem_e_honesty_pickaxe"
+      }
+    },
+    "has_recipe_e_kindness_gem_e_kindness_pickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_kindness_gem_e_kindness_pickaxe"
+      }
+    },
+    "has_recipe_e_magic_gem_e_magic_pickaxe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_magic_gem_e_magic_pickaxe"
+      }
+    },
+    "has_recipe_e_loyalty_gem_e_loyalty_sword": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_loyalty_gem_e_loyalty_sword"
+      }
+    },
+    "has_recipe_e_laughter_gem_e_laughter_sword": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_laughter_gem_e_laughter_sword"
+      }
+    },
+    "has_recipe_e_generosity_gem_e_generosity_sword": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_generosity_gem_e_generosity_sword"
+      }
+    },
+    "has_recipe_e_honesty_gem_e_honesty_sword": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_honesty_gem_e_honesty_sword"
+      }
+    },
+    "has_recipe_e_kindness_gem_e_kindness_sword": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_kindness_gem_e_kindness_sword"
+      }
+    },
+    "has_recipe_e_magic_gem_e_magic_sword": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_magic_gem_e_magic_sword"
+      }
+    },
+    "has_recipe_e_loyalty_gem_e_loyalty_jewelry": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_loyalty_gem_e_loyalty_jewelry"
+      }
+    },
+    "has_recipe_e_laughter_gem_e_laughter_jewelry": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_laughter_gem_e_laughter_jewelry"
+      }
+    },
+    "has_recipe_e_generosity_gem_e_generosity_jewelry": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_generosity_gem_e_generosity_jewelry"
+      }
+    },
+    "has_recipe_e_honesty_gem_e_honesty_jewelry": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_honesty_gem_e_honesty_jewelry"
+      }
+    },
+    "has_recipe_e_kindness_gem_e_kindness_jewelry": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_kindness_gem_e_kindness_jewelry"
+      }
+    },
+    "has_recipe_e_magic_gem_e_magic_jewelry": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "elementsofharmony:recipe_e_magic_gem_e_magic_jewelry"
+      }
+    }
+    
+  },
+    
+  "requirements": [
+    [
+      "has_e_loyalty_gem",
+      "has_e_laughter_gem",
+      "has_e_generosity_gem",
+      "has_e_honesty_gem",
+      "has_e_kindness_gem",
+      "has_e_magic_gem",
+      "has_recipe_e_loyalty_gem_e_loyalty_axe",
+      "has_recipe_e_laughter_gem_e_laughter_axe",
+      "has_recipe_e_generosity_gem_e_generosity_axe",
+      "has_recipe_e_honesty_gem_e_honesty_axe",
+      "has_recipe_e_kindness_gem_e_kindness_axe",
+      "has_recipe_e_magic_gem_e_magic_axe",
+      "has_recipe_e_loyalty_gem_e_loyalty_pickaxe",
+      "has_recipe_e_laughter_gem_e_laughter_pickaxe",
+      "has_recipe_e_generosity_gem_e_generosity_pickaxe",
+      "has_recipe_e_honesty_gem_e_honesty_pickaxe",
+      "has_recipe_e_kindness_gem_e_kindness_pickaxe",
+      "has_recipe_e_magic_gem_e_magic_pickaxe",
+      "has_recipe_e_loyalty_gem_e_loyalty_sword",
+      "has_recipe_e_laughter_gem_e_laughter_sword",
+      "has_recipe_e_generosity_gem_e_generosity_sword",
+      "has_recipe_e_honesty_gem_e_honesty_sword",
+      "has_recipe_e_kindness_gem_e_kindness_sword",
+      "has_recipe_e_magic_gem_e_magic_sword",
+      "has_recipe_e_loyalty_gem_e_loyalty_jewelry",
+      "has_recipe_e_laughter_gem_e_laughter_jewelry",
+      "has_recipe_e_generosity_gem_e_generosity_jewelry",
+      "has_recipe_e_honesty_gem_e_honesty_jewelry",
+      "has_recipe_e_kindness_gem_e_kindness_jewelry",
+      "has_recipe_e_magic_gem_e_magic_jewelry"
+    ]
+  ]
+}
