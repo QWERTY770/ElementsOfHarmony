@@ -8,7 +8,7 @@ import javax.annotation.Nonnull;
 import java.util.*;
 
 public class EquestriaBiomeProvider extends BiomeProvider {
-    private static final List<Biome> BIOMES = new ArrayList<>(Arrays.asList(Biomes.PLAINS, Biomes.OCEAN));
+    private static final List<Biome> BIOMES = new ArrayList<>(Arrays.asList(Biomes.PLAINS, Biomes.FOREST, Biomes.OCEAN));
     private final Random random;
 
     protected EquestriaBiomeProvider() {
@@ -18,6 +18,6 @@ public class EquestriaBiomeProvider extends BiomeProvider {
 
     @Override @Nonnull
     public Biome getNoiseBiome(int x, int y, int z) {
-        return BIOMES.get(random.nextInt(2));
+        return BIOMES.get(random.nextInt(3));
     }
 }
