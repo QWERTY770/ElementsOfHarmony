@@ -4,6 +4,6 @@ import net.minecraft.item.Item;
 
 public class ItemEMagicIngot extends Item {
     public ItemEMagicIngot(){
-        super(new Properties().group(ModGroup.elementsofharmonyGroup));
+        super(new Properties().group(GroupModGroup.elementsofharmonyGroup));
     }
 }

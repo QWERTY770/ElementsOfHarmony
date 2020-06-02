@@ -4,6 +4,6 @@ import net.minecraft.item.Item;
 
 public class ItemEGenerosityGem extends Item {
     public ItemEGenerosityGem(){
-        super(new Properties().group(ModGroup.elementsofharmonyGroup));
+        super(new Properties().group(GroupModGroup.elementsofharmonyGroup));
     }
 }

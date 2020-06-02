@@ -7,6 +7,6 @@ import net.minecraft.item.PickaxeItem;
 public class ItemELoyaltyPickaxe extends PickaxeItem {
     private static final IItemTier tireELoyalty = new TireELoyalty();
     public ItemELoyaltyPickaxe(){
-        super(tireELoyalty, 1, -2.2F, new Item.Properties().group(ModGroup.elementsofharmonyGroup));
+        super(tireELoyalty, 1, -2.2F, new Item.Properties().group(GroupModGroup.elementsofharmonyGroup));
     }
 }

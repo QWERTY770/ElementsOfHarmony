@@ -8,6 +8,6 @@ import net.minecraft.item.Item;
 public class ItemEGenerosityNecklace extends ArmorItem {
     private static final IArmorMaterial materialEGenerosity = new MaterialEGenerosity();
     public ItemEGenerosityNecklace(){
-        super(materialEGenerosity, EquipmentSlotType.CHEST, new Item.Properties().group(ModGroup.elementsofharmonyGroup));
+        super(materialEGenerosity, EquipmentSlotType.CHEST, new Item.Properties().group(GroupModGroup.elementsofharmonyGroup));
     }
 }

@@ -4,6 +4,6 @@ import net.minecraft.item.Item;
 
 public class ItemELoyaltyJewelry extends Item {
     public ItemELoyaltyJewelry(){
-        super(new Properties().group(ModGroup.elementsofharmonyGroup));
+        super(new Properties().group(GroupModGroup.elementsofharmonyGroup));
     }
 }

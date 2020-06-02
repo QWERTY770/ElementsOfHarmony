@@ -21,17 +21,17 @@ public class ItemRegistry {
     // Sep -------------------------------------------------------------------------------------------------------------
 
     public static RegistryObject<Item> blockELoyaltyMine = ITEMS.register("block_e_loyalty_mine",
-            () -> new BlockItem(BlockRegistry.blockELoyaltyMine.get(), new Item.Properties().group(ModGroup.elementsofharmonyGroup)));
+            () -> new BlockItem(BlockRegistry.blockELoyaltyMine.get(), new Item.Properties().group(GroupModGroup.elementsofharmonyGroup)));
     public static RegistryObject<Item> blockELaughterMine = ITEMS.register("block_e_laughter_mine",
-            () -> new BlockItem(BlockRegistry.blockELaughterMine.get(), new Item.Properties().group(ModGroup.elementsofharmonyGroup)));
+            () -> new BlockItem(BlockRegistry.blockELaughterMine.get(), new Item.Properties().group(GroupModGroup.elementsofharmonyGroup)));
     public static RegistryObject<Item> blockEGenerosityMine = ITEMS.register("block_e_generosity_mine",
-            () -> new BlockItem(BlockRegistry.blockEGenerosityMine.get(), new Item.Properties().group(ModGroup.elementsofharmonyGroup)));
+            () -> new BlockItem(BlockRegistry.blockEGenerosityMine.get(), new Item.Properties().group(GroupModGroup.elementsofharmonyGroup)));
     public static RegistryObject<Item> blockEHonestyMine = ITEMS.register("block_e_honesty_mine",
-            () -> new BlockItem(BlockRegistry.blockEHonestyMine.get(), new Item.Properties().group(ModGroup.elementsofharmonyGroup)));
+            () -> new BlockItem(BlockRegistry.blockEHonestyMine.get(), new Item.Properties().group(GroupModGroup.elementsofharmonyGroup)));
     public static RegistryObject<Item> blockEKindnessMine = ITEMS.register("block_e_kindness_mine",
-            () -> new BlockItem(BlockRegistry.blockEKindnessMine.get(), new Item.Properties().group(ModGroup.elementsofharmonyGroup)));
+            () -> new BlockItem(BlockRegistry.blockEKindnessMine.get(), new Item.Properties().group(GroupModGroup.elementsofharmonyGroup)));
     public static RegistryObject<Item> blockEMagicMine = ITEMS.register("block_e_magic_mine",
-            () -> new BlockItem(BlockRegistry.blockEMagicMine.get(), new Item.Properties().group(ModGroup.elementsofharmonyGroup)));
+            () -> new BlockItem(BlockRegistry.blockEMagicMine.get(), new Item.Properties().group(GroupModGroup.elementsofharmonyGroup)));
     // Register Six Blocks
 
     // Sep -------------------------------------------------------------------------------------------------------------

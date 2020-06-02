@@ -4,6 +4,6 @@ import net.minecraft.item.Item;
 
 public class ItemEGenerosityJewelry extends Item {
     public ItemEGenerosityJewelry(){
-        super(new Properties().group(ModGroup.elementsofharmonyGroup));
+        super(new Properties().group(GroupModGroup.elementsofharmonyGroup));
     }
 }
