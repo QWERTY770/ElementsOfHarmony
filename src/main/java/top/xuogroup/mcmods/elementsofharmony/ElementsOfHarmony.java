@@ -3,6 +3,9 @@ package top.xuogroup.mcmods.elementsofharmony;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import top.xuogroup.mcmods.elementsofharmony.registry.BlockRegistry;
+import top.xuogroup.mcmods.elementsofharmony.registry.BiomeRegistry;
+import top.xuogroup.mcmods.elementsofharmony.registry.ItemRegistry;
 
 @Mod("elementsofharmony")
 public class ElementsOfHarmony {
