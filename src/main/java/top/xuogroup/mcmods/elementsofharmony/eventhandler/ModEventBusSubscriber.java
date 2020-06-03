@@ -13,10 +13,10 @@ import top.xuogroup.mcmods.elementsofharmony.util.BiomeFeatures;
 import static top.xuogroup.mcmods.elementsofharmony.util.BiomeFeatures.isEquestriaBiomes;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ModEventBusSubscriber {
+public abstract class ModEventBusSubscriber {
     @SubscribeEvent
     public static void onSetUpEvent(FMLCommonSetupEvent event){
-        BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEquestriaForest.get(), 5000));
+        BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEquestriaForest.get(), 6600));
         // Add Biomes
 
         // Sep ---------------------------------------------------------------------------------------------------------

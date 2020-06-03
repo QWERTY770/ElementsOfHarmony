@@ -38,7 +38,7 @@ public class MaterialEMagic implements IArmorMaterial {
 
     @Override @OnlyIn(Dist.CLIENT) @Nonnull
     public String getName() {
-        return "magic";
+        return "elementsofharmony:magic";
     }
 
     @Override

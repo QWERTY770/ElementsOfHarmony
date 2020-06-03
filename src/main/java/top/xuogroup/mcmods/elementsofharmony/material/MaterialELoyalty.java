@@ -38,7 +38,7 @@ public class MaterialELoyalty implements IArmorMaterial {
 
     @Override @OnlyIn(Dist.CLIENT) @Nonnull
     public String getName() {
-        return "loyalty";
+        return "elementsofharmony:loyalty";
     }
 
     @Override

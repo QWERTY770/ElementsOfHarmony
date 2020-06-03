@@ -38,7 +38,7 @@ public class MaterialELaughter implements IArmorMaterial {
 
     @Override @OnlyIn(Dist.CLIENT) @Nonnull
     public String getName() {
-        return "laughter";
+        return "elementsofharmony:laughter";
     }
 
     @Override
