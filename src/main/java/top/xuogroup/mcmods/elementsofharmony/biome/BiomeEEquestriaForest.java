@@ -10,12 +10,15 @@ public class BiomeEEquestriaForest extends Biome {
 
     public BiomeEEquestriaForest(Builder biomeBuilder) {
         super(biomeBuilder);
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.BEE, 24, 4, 8));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.DONKEY, 16, 4, 8));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.HORSE, 32, 6, 10));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SHEEP, 32, 4, 8));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.PIG, 24, 4, 6));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.PARROT, 16, 4, 8));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.BEE, 80, 10, 20));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.DONKEY, 80, 10, 20));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.HORSE, 100, 8, 20));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SHEEP, 100, 10, 16));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.PIG, 80, 10, 20));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.PARROT, 100, 8, 20));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.COD, 80, 6, 16));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SALMON, 80, 6, 12));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SQUID, 80, 4, 8));
         BiomeFeatures.addHarmonyMine(this, 512, 5, 59);
         DefaultBiomeFeatures.addCarvers(this);
         DefaultBiomeFeatures.addLakes(this);
@@ -27,6 +30,9 @@ public class BiomeEEquestriaForest extends Biome {
         DefaultBiomeFeatures.addScatteredSpruceTrees(this);
         DefaultBiomeFeatures.addScatteredOakTrees(this);
         DefaultBiomeFeatures.addForestTrees(this);
+        DefaultBiomeFeatures.addBerryBushes(this);
         DefaultBiomeFeatures.addOres(this);
+        DefaultBiomeFeatures.addStoneVariants(this);
+        DefaultBiomeFeatures.addReedsAndPumpkins(this);
     }
 }

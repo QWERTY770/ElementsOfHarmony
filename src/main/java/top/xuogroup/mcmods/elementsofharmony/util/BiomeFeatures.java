@@ -7,6 +7,7 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.placement.DepthAverageConfig;
 import net.minecraft.world.gen.placement.Placement;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaForest;
+import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaPlains;
 import top.xuogroup.mcmods.elementsofharmony.registry.BlockRegistry;
 
 public abstract class BiomeFeatures {
@@ -55,6 +56,6 @@ public abstract class BiomeFeatures {
         );
     }
     public static boolean isEquestriaBiomes(Biome biomeIn){
-        return biomeIn instanceof BiomeEEquestriaForest;
+        return biomeIn instanceof BiomeEEquestriaForest || biomeIn instanceof BiomeEEquestriaPlains;
     }
 }

@@ -10,22 +10,24 @@ import net.minecraftforge.registries.IForgeRegistry;
 import top.xuogroup.mcmods.elementsofharmony.registry.BiomeRegistry;
 import top.xuogroup.mcmods.elementsofharmony.util.BiomeFeatures;
 
-import static top.xuogroup.mcmods.elementsofharmony.util.BiomeFeatures.isEquestriaBiomes;
-
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public abstract class ModEventBusSubscriber {
     @SubscribeEvent
     public static void onSetUpEvent(FMLCommonSetupEvent event){
-        BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEquestriaForest.get(), 6600));
+        BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEquestriaForest.get(), 800));
+        BiomeManager.addSpawnBiome(BiomeRegistry.biomeEEquestriaForest.get());
+
+        BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEquestriaPlains.get(), 1200));
+        BiomeManager.addSpawnBiome(BiomeRegistry.biomeEEquestriaPlains.get());
         // Add Biomes
 
         // Sep ---------------------------------------------------------------------------------------------------------
 
         IForgeRegistry<Biome> biomesToRegister = ForgeRegistries.BIOMES;
         for (Biome biome : biomesToRegister) {
-            if (!isEquestriaBiomes(biome)) {
+            if (!BiomeFeatures.isEquestriaBiomes(biome)) {
                 // Already Add This Feature For EQ Biomes
-                BiomeFeatures.addHarmonyMine(biome, 48, 6 ,10);
+                BiomeFeatures.addHarmonyMine(biome, 36, 6 ,4);
             }
         }
         // Add Ore Generate Rules For Not EQ Biomes
