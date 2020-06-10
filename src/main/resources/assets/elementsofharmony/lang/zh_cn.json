@@ -71,6 +71,9 @@
   "biome.elementsofharmony.biome_e_equestria_forest": "小马森林",
   "biome.elementsofharmony.biome_e_equestria_plains": "小马平原",
   "biome.elementsofharmony.biome_e_urbanized_land": "小马现代平原",
+  "biome.elementsofharmony.biome_e_equestria_mountain": "小马山地",
+  
+  "generator.equestria_type": "小马利亚",
 
   "itemGroup.elementsofharmony_group": "和谐之元"
 }

@@ -25,6 +25,7 @@ public class BiomeEEquestriaPlains extends Biome {
         DefaultBiomeFeatures.addStructures(this);
         DefaultBiomeFeatures.addLakes(this);
         DefaultBiomeFeatures.addPlainsTallGrass(this);
+        DefaultBiomeFeatures.addSeagrass(this);
         DefaultBiomeFeatures.addStoneVariants(this);
         DefaultBiomeFeatures.addOres(this);
         DefaultBiomeFeatures.addSedimentDisks(this);

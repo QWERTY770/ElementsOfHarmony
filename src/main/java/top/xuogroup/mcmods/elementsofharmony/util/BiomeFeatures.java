@@ -1,5 +1,6 @@
 package top.xuogroup.mcmods.elementsofharmony.util;
 
+import net.minecraft.block.Blocks;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.feature.Feature;
@@ -57,5 +58,21 @@ public abstract class BiomeFeatures {
     }
     public static boolean isEquestriaBiomes(Biome biomeIn){
         return biomeIn instanceof BiomeEEquestriaForest || biomeIn instanceof BiomeEEquestriaPlains;
+    }
+    public static void addLightSource(Biome biomeIn, int count, int baseline, int spread) {
+    	biomeIn.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
+                Feature.ORE.withConfiguration(
+                        new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
+                                Blocks.GLOWSTONE.getDefaultState(),
+                                4)
+                ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(count, baseline, spread)))
+        );
+    	biomeIn.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
+                Feature.ORE.withConfiguration(
+                        new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE,
+                                Blocks.JACK_O_LANTERN.getDefaultState(),
+                                4)
+                ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(count, baseline, spread)))
+        );
     }
 }

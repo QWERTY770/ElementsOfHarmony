@@ -64,6 +64,9 @@
   "biome.elementsofharmony.biome_e_equestria_forest": "Equestria Arbaro",
   "biome.elementsofharmony.biome_e_equestria_plains": "Equestria Ebenaĵoj",
   "biome.elementsofharmony.biome_e_urbanized_land": "Equestria Urbanizita Tereno",
+  "biome.elementsofharmony.biome_e_equestria_mountain": "Equestria Monto",
+  
+  "generator.equestria_type": "Equestria",
 
   "itemGroup.elementsofharmony_group": "Harmonia Yuan"
 }

@@ -16,9 +16,9 @@ public class BiomeEEquestriaForest extends Biome {
         addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SHEEP, 100, 10, 16));
         addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.PIG, 80, 10, 20));
         addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.PARROT, 100, 8, 20));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.COD, 80, 6, 16));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SALMON, 80, 6, 12));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SQUID, 80, 4, 8));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.COD, 80, 6, 16));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.SALMON, 80, 6, 12));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.SQUID, 80, 4, 8));
         BiomeFeatures.addHarmonyMine(this, 512, 5, 59);
         DefaultBiomeFeatures.addCarvers(this);
         DefaultBiomeFeatures.addLakes(this);
@@ -30,6 +30,7 @@ public class BiomeEEquestriaForest extends Biome {
         DefaultBiomeFeatures.addScatteredSpruceTrees(this);
         DefaultBiomeFeatures.addScatteredOakTrees(this);
         DefaultBiomeFeatures.addForestTrees(this);
+        DefaultBiomeFeatures.addSeagrass(this);
         DefaultBiomeFeatures.addBerryBushes(this);
         DefaultBiomeFeatures.addOres(this);
         DefaultBiomeFeatures.addStoneVariants(this);

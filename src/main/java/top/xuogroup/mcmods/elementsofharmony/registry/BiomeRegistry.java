@@ -8,12 +8,14 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaForest;
+import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaMountain;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaPlains;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEUrbanizedLand;
 
 public abstract class BiomeRegistry {
     public static final DeferredRegister<Biome> BIOMES = new DeferredRegister<>(ForgeRegistries.BIOMES, "elementsofharmony");
 
+    
     public static final RegistryObject<Biome> biomeEEquestriaForest = BIOMES.register("biome_e_equestria_forest",
             () -> new BiomeEEquestriaForest(new Biome.Builder()
                     .precipitation(Biome.RainType.SNOW)
@@ -50,5 +52,17 @@ public abstract class BiomeRegistry {
                     .depth(0.001F)
                     .parent(null)
             ));
+    public static final RegistryObject<Biome> biomeEEquestriaMountain = BIOMES.register("biome_e_equestria_mountain", 
+    		() -> new BiomeEEquestriaMountain(new Biome.Builder()
+    				.precipitation(Biome.RainType.SNOW)
+    				.scale(0.5F)
+    				.temperature(0.2F)
+    				.waterColor(0xCAF2FF).waterFogColor(0x3A78B2)
+    				.surfaceBuilder(SurfaceBuilder.MOUNTAIN, SurfaceBuilder.GRASS_DIRT_GRAVEL_CONFIG)
+    				.category(Biome.Category.FOREST)
+    				.downfall(0.3F)
+    				.depth(1.0F)
+    				.parent(null)
+    				));
 
 }

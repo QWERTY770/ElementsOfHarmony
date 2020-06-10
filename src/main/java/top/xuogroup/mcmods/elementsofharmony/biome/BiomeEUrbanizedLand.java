@@ -12,8 +12,15 @@ public class BiomeEUrbanizedLand extends Biome {
         addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.BEE, 80, 10, 20));
         addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SHEEP, 100, 10, 16));
         addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.PARROT, 100, 8, 20));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.CHICKEN, 80, 4, 8));
+        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.FOX, 30, 4, 8));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.COD, 80, 4, 8));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.SALMON, 80, 4, 8));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.SQUID, 80, 4, 8));
         BiomeFeatures.addHarmonyMine(this, 512, 5, 59);
+        DefaultBiomeFeatures.addCarvers(this);
         DefaultBiomeFeatures.addSprings(this);
+        DefaultBiomeFeatures.addSeagrass(this);
         DefaultBiomeFeatures.addOres(this);
     }
 
