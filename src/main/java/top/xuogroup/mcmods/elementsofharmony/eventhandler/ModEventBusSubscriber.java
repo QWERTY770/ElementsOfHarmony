@@ -14,8 +14,9 @@ import top.xuogroup.mcmods.elementsofharmony.util.BiomeFeatures;
 public abstract class ModEventBusSubscriber {
     @SubscribeEvent
     public static void onSetUpEvent(FMLCommonSetupEvent event){
-        BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEquestriaForest.get(), 800));
-        BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEquestriaPlains.get(), 1200));
+        BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEquestriaForest.get(), 300));
+        BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEquestriaPlains.get(), 500));
+        BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEUrbanizedLand.get(), 400));
         // Add Biomes
 
         // Sep ---------------------------------------------------------------------------------------------------------
