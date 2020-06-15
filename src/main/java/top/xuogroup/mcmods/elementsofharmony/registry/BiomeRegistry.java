@@ -40,18 +40,20 @@ public abstract class BiomeRegistry {
                     .depth(0.025F)
                     .parent(null)
             ));
-    public static final RegistryObject<Biome> biomeEUrbanizedLand = BIOMES.register("biome_e_urbanized_land",
-            () -> new BiomeEUrbanizedLand(new Biome.Builder()
-                    .precipitation(Biome.RainType.NONE)
-                    .scale(0.0F)
-                    .temperature(1.0F)
-                    .waterColor(0x9DE7FF).waterFogColor(0x25598A)
-                    .surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.BRICKS.getDefaultState(), Blocks.STONE.getDefaultState(), Blocks.GRAVEL.getDefaultState()))
-                    .category(Biome.Category.PLAINS)
-                    .downfall(0.0F)
-                    .depth(0.001F)
-                    .parent(null)
-            ));
+	
+	/*
+	 * public static final RegistryObject<Biome> biomeEUrbanizedLand =
+	 * BIOMES.register("biome_e_urbanized_land", () -> new BiomeEUrbanizedLand(new
+	 * Biome.Builder() .precipitation(Biome.RainType.NONE) .scale(0.0F)
+	 * .temperature(1.0F) .waterColor(0x9DE7FF).waterFogColor(0x25598A)
+	 * .surfaceBuilder(SurfaceBuilder.DEFAULT, new
+	 * SurfaceBuilderConfig(Blocks.BRICKS.getDefaultState(),
+	 * Blocks.STONE.getDefaultState(), Blocks.GRAVEL.getDefaultState()))
+	 * .category(Biome.Category.PLAINS) .downfall(0.0F) .depth(0.001F) .parent(null)
+	 * ));
+	 */
+    // Structures Not Finished Yet
+	 
     public static final RegistryObject<Biome> biomeEEquestriaMountain = BIOMES.register("biome_e_equestria_mountain", 
     		() -> new BiomeEEquestriaMountain(new Biome.Builder()
     				.precipitation(Biome.RainType.SNOW)
