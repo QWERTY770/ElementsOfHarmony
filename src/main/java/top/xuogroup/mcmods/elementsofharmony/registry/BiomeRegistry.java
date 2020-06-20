@@ -1,16 +1,13 @@
 package top.xuogroup.mcmods.elementsofharmony.registry;
 
-import net.minecraft.block.Blocks;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
-import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaForest;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaMountain;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaPlains;
-import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEUrbanizedLand;
 
 public abstract class BiomeRegistry {
     public static final DeferredRegister<Biome> BIOMES = new DeferredRegister<>(ForgeRegistries.BIOMES, "elementsofharmony");
