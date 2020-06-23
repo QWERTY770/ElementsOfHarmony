@@ -8,7 +8,10 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.placement.DepthAverageConfig;
 import net.minecraft.world.gen.placement.Placement;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaForest;
+import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaMountain;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaPlains;
+import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEverfreeForest;
+import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEUrbanizedLand;
 import top.xuogroup.mcmods.elementsofharmony.registry.BlockRegistry;
 
 public abstract class BiomeFeatures {
@@ -57,8 +60,14 @@ public abstract class BiomeFeatures {
         );
     }
     public static boolean isEquestriaBiomes(Biome biomeIn){
-        return biomeIn instanceof BiomeEEquestriaForest || biomeIn instanceof BiomeEEquestriaPlains;
+        return  biomeIn instanceof BiomeEEquestriaForest || 
+        		biomeIn instanceof BiomeEEquestriaPlains || 
+        		biomeIn instanceof BiomeEEquestriaMountain || 
+        		biomeIn instanceof BiomeEUrbanizedLand || 
+        		biomeIn instanceof BiomeEEverfreeForest;
     }
+
+    @Deprecated
     public static void addLightSource(Biome biomeIn, int count, int baseline, int spread) {
     	biomeIn.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
                 Feature.ORE.withConfiguration(
@@ -75,4 +84,5 @@ public abstract class BiomeFeatures {
                 ).withPlacement(Placement.COUNT_DEPTH_AVERAGE.configure(new DepthAverageConfig(count, baseline, spread)))
         );
     }
+
 }
