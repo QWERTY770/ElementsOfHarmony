@@ -64,6 +64,7 @@ public abstract class BiomeFeatures {
         		biomeIn instanceof BiomeEEquestriaPlains || 
         		biomeIn instanceof BiomeEEquestriaMountain || 
         		biomeIn instanceof BiomeEUrbanizedLand || 
+        		biomeIn instanceof BiomeEEverfreeForest || 
         		biomeIn instanceof BiomeEEverfreeForest;
     }
 

@@ -2,12 +2,14 @@ package top.xuogroup.mcmods.elementsofharmony.registry;
 
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
+import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaForest;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaMountain;
 import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEquestriaPlains;
+import top.xuogroup.mcmods.elementsofharmony.biome.BiomeEEverfreeForest;
 
 public abstract class BiomeRegistry {
     public static final DeferredRegister<Biome> BIOMES = new DeferredRegister<>(ForgeRegistries.BIOMES, "elementsofharmony");
@@ -61,6 +63,18 @@ public abstract class BiomeRegistry {
     				.category(Biome.Category.FOREST)
     				.downfall(0.3F)
     				.depth(1.0F)
+    				.parent(null)
+    				));
+    public static final RegistryObject<Biome> biomeEEverfreeForest = BIOMES.register("biome_e_everfree_forest", 
+    		() -> new BiomeEEverfreeForest(new Biome.Builder()
+    				.precipitation(Biome.RainType.SNOW)
+    				.scale(0.07F)
+    				.temperature(0.2F)
+    				.waterColor(0x3ABAFF).waterFogColor(0x1A6A95)
+    				.surfaceBuilder(SurfaceBuilder.DEFAULT, SurfaceBuilder.GRASS_DIRT_GRAVEL_CONFIG)
+    				.category(Biome.Category.FOREST)
+    				.downfall(0.2F)
+    				.depth(0.14F)
     				.parent(null)
     				));
 

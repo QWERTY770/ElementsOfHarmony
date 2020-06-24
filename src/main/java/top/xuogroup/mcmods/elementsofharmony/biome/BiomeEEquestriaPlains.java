@@ -22,7 +22,6 @@ public class BiomeEEquestriaPlains extends Biome {
         BiomeFeatures.addHarmonyMine(this, 256, 5, 40);
         DefaultBiomeFeatures.addDoubleFlowers(this);
         DefaultBiomeFeatures.addCarvers(this);
-        DefaultBiomeFeatures.addStructures(this);
         DefaultBiomeFeatures.addLakes(this);
         DefaultBiomeFeatures.addPlainsTallGrass(this);
         DefaultBiomeFeatures.addSeagrass(this);
