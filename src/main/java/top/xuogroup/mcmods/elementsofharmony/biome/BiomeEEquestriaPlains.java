@@ -16,9 +16,9 @@ public class BiomeEEquestriaPlains extends Biome {
         addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.CHICKEN, 100, 8, 24));
         addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.CAT, 60, 4, 12));
         addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.COW, 100, 4, 24));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.COD, 100, 8, 24));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SALMON, 100, 8, 24));
-        addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.SQUID, 100, 4, 24));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.COD, 100, 8, 24));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.SALMON, 100, 8, 24));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.SQUID, 100, 4, 24));
         BiomeFeatures.addHarmonyMine(this, 256, 5, 40);
         DefaultBiomeFeatures.addDoubleFlowers(this);
         DefaultBiomeFeatures.addCarvers(this);

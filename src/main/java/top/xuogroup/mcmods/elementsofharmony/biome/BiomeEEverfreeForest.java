@@ -4,6 +4,7 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
+import net.minecraft.world.biome.Biome.SpawnListEntry;
 import top.xuogroup.mcmods.elementsofharmony.util.BiomeFeatures;
 
 public class BiomeEEverfreeForest extends Biome{
@@ -21,8 +22,10 @@ public class BiomeEEverfreeForest extends Biome{
         addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.ZOMBIE, 100, 1, 2));
         addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.SPIDER, 100, 1, 2));
         addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.CAVE_SPIDER, 80, 1, 1));
-
-        BiomeFeatures.addHarmonyMine(this, 512, 5, 64);
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.COD, 100, 8, 24));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.SALMON, 100, 8, 24));
+        addSpawn(EntityClassification.WATER_CREATURE, new SpawnListEntry(EntityType.SQUID, 100, 4, 24));
+        BiomeFeatures.addHarmonyMine(this, 980, 5, 64);
         DefaultBiomeFeatures.addDoubleFlowers(this);
         DefaultBiomeFeatures.addCarvers(this);
         DefaultBiomeFeatures.addLakes(this);
