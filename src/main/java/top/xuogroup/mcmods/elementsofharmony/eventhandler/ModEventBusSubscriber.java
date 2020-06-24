@@ -19,6 +19,11 @@ public abstract class ModEventBusSubscriber {
         // BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEUrbanizedLand.get(), 400));
         // Structures Not Finished Yet
         BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEquestriaMountain.get(), 500));
+        BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(BiomeRegistry.biomeEEverfreeForest.get(), 100));
+        BiomeManager.addSpawnBiome(BiomeRegistry.biomeEEquestriaForest.get());
+        BiomeManager.addSpawnBiome(BiomeRegistry.biomeEEquestriaPlains.get());
+        BiomeManager.addSpawnBiome(BiomeRegistry.biomeEEquestriaMountain.get());
+        BiomeManager.addSpawnBiome(BiomeRegistry.biomeEEverfreeForest.get());
         // Add Biomes
 
         // Sep ---------------------------------------------------------------------------------------------------------
