@@ -16,9 +16,11 @@ public class BiomeEEverfreeForest extends Biome{
         addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.ILLUSIONER, 100, 1, 2));
         addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.SKELETON, 100, 1, 2));
         addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.WITCH, 100, 1, 2));
-        addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.WITHER_SKELETON, 100, 1, 1));
+        addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.WITHER_SKELETON, 80, 1, 1));
         addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.PHANTOM, 100, 1, 2));
         addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.ZOMBIE, 100, 1, 2));
+        addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.SPIDER, 100, 1, 2));
+        addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.CAVE_SPIDER, 80, 1, 1));
 
         BiomeFeatures.addHarmonyMine(this, 512, 5, 64);
         DefaultBiomeFeatures.addDoubleFlowers(this);
