@@ -4,7 +4,6 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
-import net.minecraft.world.biome.Biome.SpawnListEntry;
 import top.xuogroup.mcmods.elementsofharmony.util.BiomeFeatures;
 
 public class BiomeEEverfreeForest extends Biome{
