@@ -30,8 +30,8 @@ He sat down and start building, and soon he left the Overworld, to... a place wh
 
 ---
 运行环境：  
-- 我的世界1.15.2（Java版），且已安装Forge31.1.0。
-
+- 我的世界1.15.2（Java版），且已安装Forge31.2.0。（即将停止支持！）
+- 我的世界1.16.1（Java版），且已安装Forge32.0.63。
 ---
 语言：  
 - This MOD Supports English.

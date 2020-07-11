@@ -27,8 +27,8 @@ Okay, and that's the whole absurd story. Anyway, we just want to develop a mod r
 
 ---
 Runtime environment:  
-- Minecraft 1.15.2 (Java Edition), with Forge 31.1.0.
-
+- Minecraft 1.15.2 (Java Edition), with Forge 31.2.0. (WILL NOT BE LONG!)
+- Minecraft 1.15.2 (Java Edition), with Forge 32.0.63.
 ---
 Languages:  
 - This MOD Supports English.
