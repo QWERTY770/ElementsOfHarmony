@@ -8,7 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import top.xuogroup.mcmods.elementsofharmony.item.*;
 
 public abstract class ItemRegistry {
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, "elementsofharmony");
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "elementsofharmony");
     // Create ITEMS Object
 
     public static RegistryObject<Item> itemELoyaltyGem = ITEMS.register("item_e_loyalty_gem", ItemELoyaltyGem::new);

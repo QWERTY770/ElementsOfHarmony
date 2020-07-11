@@ -45,4 +45,8 @@ public class MaterialEMagic implements IArmorMaterial {
     public float getToughness() {
         return 1.0F;
     }
+	@Override
+	public float func_230304_f_() {
+		return 0.0F;
+	}
 }

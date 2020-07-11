@@ -7,7 +7,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import top.xuogroup.mcmods.elementsofharmony.block.*;
 
 public abstract class BlockRegistry {
-    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, "elementsofharmony");
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, "elementsofharmony");
 
     public static RegistryObject<Block> blockELoyaltyMine = BLOCKS.register("block_e_loyalty_mine", BlockELoyaltyMine::new);
     public static RegistryObject<Block> blockELaughterMine = BLOCKS.register("block_e_laughter_mine", BlockELaughterMine::new);
