@@ -1,0 +1,22 @@
+{
+"name": "Elements of Harmony",
+"type": "mod",
+"author": "XUOGROUP",
+"homepage": "https://eoh.xuogroup.top",
+"versions":{
+"all":["1.2.0"],
+"1.2.0":{
+"index_file": "mcget/1.2.0.json",
+"deps":["forge@1.16.1"],
+"unique": "1.16.1"
+}
+
+},
+"display": {
+"background": "eoh_text.png",
+"color": "#df307f"
+},
+"license": "GPL-3.0-or-later",
+"suggest":["loveandtolerance"],
+"keywords":["pony","harmony","mylittlepony","mlp","pink"]
+}
